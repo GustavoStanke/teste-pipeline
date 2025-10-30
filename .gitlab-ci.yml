@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test:
+  image: node:18-alpine
+  stage: test
+  script:
+    - npm test
+  only:
+    - branches
+    - merge_requests
+

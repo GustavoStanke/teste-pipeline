@@ -1,0 +1,14 @@
+{
+  "name": "pipeline-node-sample",
+  "version": "1.0.0",
+  "description": "Projeto Node.js simples para testar pipeline CI/CD.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/test.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "ISC"
+}
